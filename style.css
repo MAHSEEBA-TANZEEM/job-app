@@ -1,0 +1,20 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width:900px;
+    margin: 0 auto;
+}
+
+.form_container {
+    display:grid;
+    grid-template-columns: repeat(autofit,minmax(200px,1fr));
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
